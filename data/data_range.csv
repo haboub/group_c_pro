@@ -1,24 +1,24 @@
 Criteria,Min,Max
-Annual Revenue,0,1000000
+Annual Revenue,0.01,1000000
 Gross Profit,1,1000000
 Credit Score,300,850
-Debt-to-Income Ratio,0,1.5
-Outstanding Loan Amount,0,500000
-Loan-to-Value Ratio,0,2
-Missed Payments,0,12
-Liquidity Ratio,0,1.5
-Profitability Ratio,0,1.5
-Operating Cash Flow,0,1000000
+Debt-to-Income Ratio,0.01,1.5
+Outstanding Loan Amount,0.01,500000
+Loan-to-Value Ratio,0.01,2
+Missed Payments,0.01,12
+Liquidity Ratio,0.01,1.5
+Profitability Ratio,0.01,1.5
+Operating Cash Flow,0.01,1000000
 Employee Count,1,10000
-Inventory Turnover,0,100
-Operational Expense,0,500000
-Market Share,0,100
-Sales Growth,-100,100
-Customer Churn Rate,0,100
-Supplier Reliability,0,100
-Regulatory Compliance Score,0,1000
-R&D Spending,0,100000
-Delivery Time,0,1000
+Inventory Turnover,0.01,100
+Operational Expense,0.01,500000
+Market Share,0.01,100
+Sales Growth,0.01,100
+Customer Churn Rate,0.01,100
+Supplier Reliability,0.01,100
+Regulatory Compliance Score,0.01,1000
+R&D Spending,0.01,100000
+Delivery Time,0.01,1000
 Interest Rate,0.1,1.5
 Stock Market Index,1,100
 GDP Growth Rate,0.1,1.5
