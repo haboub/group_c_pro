@@ -1,23 +1,26 @@
+### 8 Dec 2024 - Term 241
+# Math 557: Applied Linear Algebra
+---
+# Project: Computational Efficiency in Early Warning Systems for Financial Credit Risk.
 
-# Early Warning System for Loan Credit Risk
+An Early Warning System (EWS) is a tool used in the financial industry to find loan credit risks and early signs of financial problems. It looks at past data, current financial information, and economic conditions to predict which clients may become risky in the future.
 
-This project, part of MATH-557 (Applied Linear Algebra), explores the use of numerical linear algebra techniques in developing an Early Warning System (EWS) for detecting loan credit risk and financial distress. The system analyzes historical data, financial information, and economic conditions to predict potential risks effectively.
+The system uses information like transaction histories, financial ratios, credit scores, and economic factors to help financial institutions manage risks. But as the data becomes bigger, the system needs better methods to work faster and stay reliable.
 
-This project provides tools for analyzing financial data, implementing machine learning models, and evaluating results using metrics like accuracy, precision, and recall. It demonstrates the use of logistic regression for classification and Cholesky decomposition for efficient linear algebra computations.
 
 ---
 
-## Project Members
+## Project Members (Group C)
 
-- **Khaleel Al-Haboub**
-- **Mahdi Al Mayuf**
+- **Khaleel AlHaboub**
+- **Mahdi AlMayuf**
 - **Hassan Alalwi**
 
 ---
 
 ## Objectives
 
-- Address computational inefficiencies in matrix inversion using advanced linear algebra techniques like Cholesky decomposition.
+The goal of this project is to solve the problem of slow processing caused by large amounts of data in Early Warning Systems (EWS). This happens because matrix inversion, a key step in the model, becomes inefficient when data grows.
 
 ---
 
@@ -29,3 +32,5 @@ This project provides tools for analyzing financial data, implementing machine l
    pip install -r requirements.txt
    pip install notebook
 3. Launch Jupyter Notebook and open the `Project.ipynb` file
+   ```bash
+   jupyter notebook
